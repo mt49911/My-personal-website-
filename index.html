@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABDULLAHI MUHAMMAD TUKUR | Digital Architect & Textile Merchant</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Official website of Abdullahi Muhammad Tukur - Web Developer, Canva Designer, Digital Marketer, Phone Technician, and Textile Merchant at Kwari Market, Kano.">
+  <meta name="keywords" content="Abdullahi Muhammad Tukur, Abdullahi MT, web developer Nigeria, Canva designer, digital marketer, phone repair, textile merchant, yadi, shadda, atampa, men's lace">
+  <meta name="author" content="Abdullahi Muhammad Tukur">
+  <!-- Open Graph -->
+  <meta property="og:title" content="ABDULLAHI MUHAMMAD TUKUR - Digital Architect & Textile Merchant">
+  <meta property="og:description" content="Web Developer, Designer, Marketer, Phone Technician & Textile Merchant. 24/7 Active. Book via WhatsApp.">
+  <meta property="og:image" content="mt.jpg">
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- PRELOADER -->
+  <div class="preloader">
+    <div class="preloader-content">
+      <div class="preloader-logo">MT</div>
+      <div class="preloader-bar"></div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <img src="logo.jpg" alt="Abdullahi MT Logo" class="logo-img" onerror="this.src='https://via.placeholder.com/50?text=MT'">
+        <span class="logo-text">ABDULLAHI <span class="logo-highlight">MT</span></span>
+      </div>
+      
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#textile" class="nav-link">Textile</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        
+        <div class="nav-actions">
+          <!-- Notification Bell -->
+          <div class="notification-bell" id="notificationBell">
+            <i class="fas fa-bell"></i>
+            <span class="bell-badge" id="notificationBadge">0</span>
+            <div class="notification-dropdown" id="notificationDropdown">
+              <div class="dropdown-header">
+                <h4>Notifications</h4>
+                <span class="mark-read">Mark all read</span>
+              </div>
+              <div class="notification-list" id="notificationList">
+                <!-- Notifications will be loaded here -->
+              </div>
+            </div>
+          </div>
+          <!-- 24/7 Active Badge -->
+          <div class="active-badge">
+            <span class="pulse"></span>
+            <span>24/7 Active</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME / HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-background">
+      <div class="hero-shape"></div>
+      <div class="hero-shape"></div>
+      <div class="hero-shape"></div>
+    </div>
+    
+    <div class="hero-container">
+      <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+        <div class="hero-badge">
+          <span class="badge-icon"><i class="fas fa-crown"></i></span>
+          <span class="badge-text">#1 Digital Architect & Textile Merchant</span>
+        </div>
+        
+        <h1 class="hero-title">
+          <span class="title-line">ABDULLAHI</span>
+          <span class="title-line highlight">MUHAMMAD TUKUR</span>
+        </h1>
+        
+        <div class="hero-typing">
+          <span class="typing-text" id="typingText"></span>
+          <span class="typing-cursor">|</span>
+        </div>
+        
+        <div class="current-location" id="currentLocation">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Loading location...</span>
+        </div>
+        
+        <p class="hero-description">
+          Web Developer | Canva Designer | Digital Marketer | Phone Technician<br>
+          Textile Merchant (Yadi, Shadda, Atampa, Men's Lace) at Kwari Market, Kano
+        </p>
+        
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number" data-target="200">0</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="5">0</div>
+            <div class="stat-label">Years Exp</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="300">0</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+        </div>
+        
+        <div class="hero-buttons">
+          <a href="#services" class="btn btn-primary">
+            <span>Explore Services</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="https://wa.me/2348167726037?text=Assalamu%20alaikum%20Abdullahi!%20I%20visited%20your%20website%20and%20I'm%20interested%20in%20your%20services.%20Please%20contact%20me." class="btn btn-whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>Chat on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+        <div class="image-frame">
+          <img src="mt.jpg" alt="Abdullahi Muhammad Tukur" class="hero-img" onerror="this.src='https://via.placeholder.com/600x700?text=ABDULLAHI+MT'">
+          <div class="image-backdrop"></div>
+        </div>
+        <div class="experience-badge">
+          <div class="exp-years">18</div>
+          <div class="exp-text">Years<br>Young</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-subtitle">WHO I AM</span>
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-left" data-aos="fade-right">
+          <div class="about-image-group">
+            <img src="mt.jpg" alt="About Me" class="about-img-main" onerror="this.src='https://via.placeholder.com/500x600?text=MT'">
+            <div class="about-img-shape"></div>
+            <div class="about-img-dots"></div>
+          </div>
+        </div>
+                
+        <div class="about-right" data-aos="fade-left">
+          <h3 class="about-name">I'm Abdullahi Muhammad Tukur</h3>
+          <p class="about-bio">
+            A passionate <strong>Web Developer</strong>, <strong>Canva Designer</strong>, <strong>Digital Marketer</strong>, and <strong>Phone Technician</strong> from Malumfashi, Katsina State. 
+            I also own a <strong>textile business</strong> at Kwari Market, Kano, selling high-quality <strong>yadi, shadda, atampa, and men's lace</strong> at affordable prices.
+            I'm a dedicated <strong>Qur'an student</strong> following the Sunnah of Prophet Muhammad ﷺ, combining technology with Islamic values.
+          </p>
+          
+          <div class="about-info-grid">
+            <div class="info-item"><i class="fas fa-calendar"></i><div><span class="info-label">Age:</span> <span class="info-value">18 Years</span></div></div>
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i><div><span class="info-label">Location:</span> <span class="info-value">Malumfashi & Kano</span></div></div>
+            <div class="info-item"><i class="fas fa-phone-alt"></i><div><span class="info-label">Phone:</span> <span class="info-value">09020899102</span></div></div>
+            <div class="info-item"><i class="fab fa-whatsapp"></i><div><span class="info-label">WhatsApp:</span> <span class="info-value">08167726037</span></div></div>
+          </div>
+          
+          <div class="about-education">
+            <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+            <ul class="education-list">
+              <li><span>2012-2015:</span> Albasirah Nursery School, Malumfashi</li>
+              <li><span>2015-2019:</span> Albasirah Primary School, Malumfashi</li>
+              <li><span>2020-2021:</span> Government Secondary School Dan Rimi (JSS1)</li>
+              <li><span>2021-2023:</span> Malumfashi Academy (JSS2-JSS3)</li>
+              <li><span>2023-2025:</span> Standard Secondary School (SS1-SS3)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-subtitle">WHAT I OFFER</span>
+        <h2 class="section-title">Digital <span class="highlight">Services</span></h2>
+        <div class="section-line"></div>
+        <p class="section-description">Professional solutions at affordable prices. Click any service to book instantly via WhatsApp.</p>
+      </div>
+      
+      <div class="services-grid">
+        <!-- Web Development -->
+        <div class="service-card" data-aos="flip-left" data-aos-delay="100">
+          <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Web Development</h3>
+          <p>Modern, responsive websites for Schools, Businesses, Hospitals, Companies, and more.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> School/College Portals</li>
+            <li><i class="fas fa-check"></i> Business/Corporate Sites</li>
+            <li><i class="fas fa-check"></i> Hospital Management</li>
+            <li><i class="fas fa-check"></i> E-commerce Stores</li>
+          </ul>
+          <div class="service-price">From ₦50,000</div>
+          <a href="https://wa.me/2348167726037?text=I%20need%20a%20WEBSITE%20for%20my%20business" class="service-book" target="_blank"><i class="fab fa-whatsapp"></i> Book Now</a>
+        </div>
+
+        <!-- Canva Design -->
+        <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+          <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Canva Design</h3>
+          <p>Eye-catching designs for any occasion – logos, flyers, wedding invitations, social media graphics.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Wedding Invitations</li>
+            <li><i class="fas fa-check"></i> Logos & Branding</li>
+            <li><i class="fas fa-check"></i> Flyers & Posters</li>
+            <li><i class="fas fa-check"></i> Social Media Posts</li>
+          </ul>
+          <div class="service-price">From ₦5,000</div>
+          <a href="https://wa.me/2348167726037?text=I%20need%20a%20CANVA%20DESIGN" class="service-book" target="_blank"><i class="fab fa-whatsapp"></i> Book Now</a>
+        </div>
+
+        <!-- Digital Marketing -->
+        <div class="service-card" data-aos="flip-left" data-aos-delay="300">
+          <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Digital Marketing</h3>
+          <p>Grow your brand online with SEO, social media management, and targeted ads.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> SEO Optimization</li>
+            <li><i class="fas fa-check"></i> Social Media Management</li>
+            <li><i class="fas fa-check"></i> Facebook/Instagram Ads</li>
+            <li><i class="fas fa-check"></i> Content Strategy</li>
+          </ul>
+          <div class="service-price">From ₦30,000/month</div>
+          <a href="https://wa.me/2348167726037?text=I%20need%20DIGITAL%20MARKETING%20for%20my%20business" class="service-book" target="_blank"><i class="fab fa-whatsapp"></i> Book Now</a>
+        </div>
+
+        <!-- Phone Repair -->
+        <div class="service-card" data-aos="flip-left" data-aos-delay="400">
+          <div class="service-icon"><i class="fas fa-tools"></i></div>
+          <h3>Phone Repair</h3>
+          <p>Professional repair for all phone models. Quick, reliable, and affordable.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Screen Replacement</li>
+            <li><i class="fas fa-check"></i> Battery Change</li>
+            <li><i class="fas fa-check"></i> Charging Port Fix</li>
+            <li><i class="fas fa-check"></i> Software Issues</li>
+          </ul>
+          <div class="service-price">From ₦3,000</div>
+          <a href="https://wa.me/2348167726037?text=I%20need%20PHONE%20REPAIR" class="service-book" target="_blank"><i class="fab fa-whatsapp"></i> Book Now</a>
+        </div>
+
+        <!-- Phone Sales -->
+        <div class="service-card" data-aos="flip-left" data-aos-delay="500">
+          <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Phone Sales</h3>
+          <p>Quality new and used phones at the best prices. Warranty included.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> iPhones & Android</li>
+            <li><i class="fas fa-check"></i> Affordable Prices</li>
+            <li><i class="fas fa-check"></i> Delivery Available</li>
+            <li><i class="fas fa-check"></i> Warranty</li>
+          </ul>
+          <div class="service-price">Prices vary</div>
+          <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20a%20PHONE" class="service-book" target="_blank"><i class="fab fa-whatsapp"></i> Inquire Now</a>
+        </div>
+
+        <!-- AI Media -->
+        <div class="service-card" data-aos="flip-left" data-aos-delay="600">
+          <div class="service-icon"><i class="fas fa-robot"></i></div>
+          <h3>AI Media Generation</h3>
+          <p>Custom AI-generated videos and photos from your prompts. Perfect for creatives.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> AI Videos</li>
+            <li><i class="fas fa-check"></i> AI Images</li>
+            <li><i class="fas fa-check"></i> Custom Prompts</li>
+            <li><i class="fas fa-check"></i> Fast Delivery</li>
+          </ul>
+          <div class="service-price">From ₦2,000</div>
+          <a href="https://wa.me/2348167726037?text=I%20want%20AI%20MEDIA" class="service-book" target="_blank"><i class="fab fa-whatsapp"></i> Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEXTILE BUSINESS SECTION -->
+  <section id="textile" class="textile">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-subtitle">TEXTILE BUSINESS</span>
+        <h2 class="section-title">Premium <span class="highlight">Fabrics</span></h2>
+        <div class="section-line"></div>
+        <p class="section-description">I supply high-quality textiles at affordable prices from Kwari Market, Kano. Nationwide delivery available.</p>
+      </div>
+
+      <div class="textile-showcase">
+        <!-- textile1.jpg to textile10.jpg -->
+        <div class="textile-item" data-aos="zoom-in" data-aos-delay="100">
+          <div class="textile-image">
+            <img src="textile1.jpg" alt="Yadi" onerror="this.src='https://via.placeholder.com/600x800?text=Yadi'">
+            <div class="textile-overlay">
+              <h4>Yadi (Ankara)</h4>
+              <p>High-quality African wax prints. Perfect for traditional and modern styles.</p>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20YADI%20(Ankara).%20Please%20send%20me%20available%20designs." class="textile-btn" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="textile-item" data-aos="zoom-in" data-aos-delay="150">
+          <div class="textile-image">
+            <img src="textile2.jpg" alt="Shadda" onerror="this.src='https://via.placeholder.com/600x800?text=Shadda'">
+            <div class="textile-overlay">
+              <h4>Shadda</h4>
+              <p>Soft, comfortable shadda fabric for elegant outfits.</p>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20SHADDA.%20Send%20me%20colors%20and%20prices." class="textile-btn" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="textile-item" data-aos="zoom-in" data-aos-delay="200">
+          <div class="textile-image">
+            <img src="textile3.jpg" alt="Atampa" onerror="this.src='https://via.placeholder.com/600x800?text=Atampa'">
+            <div class="textile-overlay">
+              <h4>Atampa</h4>
+              <p>Traditional tie-dye fabric, vibrant and unique.</p>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20ATAMPA.%20Tell%20me%20more." class="textile-btn" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="textile-item" data-aos="zoom-in" data-aos-delay="250">
+          <div class="textile-image">
+            <img src="textile4.jpg" alt="Men's Lace" onerror="this.src='https://via.placeholder.com/600x800?text=Men\'s+Lace'">
+            <div class="textile-overlay">
+              <h4>Men's Lace</h4>
+              <p>Exquisite lace fabrics for men's special occasions.</p>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20MEN'S%20LACE.%20Show%20me%20options." class="textile-btn" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="textile-item" data-aos="zoom-in" data-aos-delay="300">
+          <div class="textile-image">
+            <img src="textile5.jpg" alt="Ankara Special" onerror="this.src='https://via.placeholder.com/600x800?text=Ankara+Special'">
+            <div class="textile-overlay">
+              <h4>Ankara Special</h4>
+              <p>Limited edition Ankara designs.</p>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20ANKARA%20SPECIAL." class="textile-btn" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="textile-item" data-aos="zoom-in" data-aos-delay="350">
+          <div class="textile-image">
+            <img src="textile6.jpg" alt="Plain Shadda" onerror="this.src='https://via.placeholder.com/600x800?text=Plain+Shadda'">
+            <div class="textile-overlay">
+              <h4>Plain Shadda</h4>
+              <p>Plain colors for custom designs.</p>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20PLAIN%20SHADDA." class="textile-btn" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="textile-item" data-aos="zoom-in" data-aos-delay="400">
+          <div class="textile-image">
+            <img src="textile7.jpg" alt="Atampa Mix" onerror="this.src='https://via.placeholder.com/600x800?text=Atampa+Mix'">
+            <div class="textile-overlay">
+              <h4>Atampa Mix</h4>
+              <p>Mixed patterns for bold looks.</p>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20ATAMPA%20MIX." class="textile-btn" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="textile-item" data-aos="zoom-in" data-aos-delay="450">
+          <div class="textile-image">
+            <img src="textile8.jpg" alt="Premium Lace" onerror="this.src='https://via.placeholder.com/600x800?text=Premium+Lace'">
+            <div class="textile-overlay">
+              <h4>Premium Lace</h4>
+              <p>High-end lace for special occasions.</p>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20PREMIUM%20LACE." class="textile-btn" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="textile-item" data-aos="zoom-in" data-aos-delay="500">
+          <div class="textile-image">
+            <img src="textile9.jpg" alt="Wedding Lace" onerror="this.src='https://via.placeholder.com/600x800?text=Wedding+Lace'">
+            <div class="textile-overlay">
+              <h4>Wedding Lace</h4>
+              <p>Exquisite lace for weddings.</p>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20WEDDING%20LACE." class="textile-btn" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="textile-item" data-aos="zoom-in" data-aos-delay="550">
+          <div class="textile-image">
+            <img src="textile10.jpg" alt="Bulk Fabrics" onerror="this.src='https://via.placeholder.com/600x800?text=Bulk+Fabrics'">
+            <div class="textile-overlay">
+              <h4>Bulk Fabrics</h4>
+              <p>Wholesale prices for traders.</p>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20FABRICS%20IN%20BULK." class="textile-btn" target="_blank"><i class="fab fa-whatsapp"></i> Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="textile-cta" data-aos="fade-up">
+        <h3>Visit my shop at Kwari Market, Kano or order online!</h3>
+        <p>We deliver nationwide. Wholesale and retail available.</p>
+        <a href="https://wa.me/2348167726037?text=I%20want%20to%20order%20textiles%20in%20bulk.%20Please%20contact%20me." class="btn btn-primary" target="_blank"><i class="fab fa-whatsapp"></i> Order in Bulk</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-subtitle">GET IN TOUCH</span>
+        <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      
+      <div class="contact-container">
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Have a project or need fabrics?</h3>
+          <p>I'm always available 24/7. Send a message and I'll respond within minutes.</p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div><span>Call Me</span><a href="tel:+2349020899102">09020899102</a></div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-whatsapp"></i>
+              <div><span>WhatsApp</span><a href="https://wa.me/2348167726037" target="_blank">08167726037</a></div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div><span>Email</span><a href="mailto:abdullahimt200@gmail.com">abdullahimt200@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div><span>Location</span><p>Malumfashi & Kwari Market, Kano</p></div>
+            </div>
+          </div>
+          
+          <div class="contact-social">
+            <h4>Follow Me</h4>
+            <div class="social-links">
+              <a href="https://www.tiktok.com/@abdulmt22" target="_blank"><i class="fab fa-tiktok"></i></a>
+              <a href="https://www.facebook.com/share/1YXFtpvzCS/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/emty_jr300" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.snapchat.com/add/abdullahim28226" target="_blank"><i class="fab fa-snapchat-ghost"></i></a>
+              <a href="https://t.me/Abdulmt200" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+              <a href="https://x.com/Abdulmt200" target="_blank"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://youtube.com/@quran-tv-muslim" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-quick" data-aos="fade-left">
+          <div class="quick-card">
+            <h4>Quick Booking</h4>
+            <p>Select a service to start WhatsApp chat with pre-filled message.</p>
+            <div class="quick-buttons">
+              <a href="https://wa.me/2348167726037?text=I%20need%20a%20WEBSITE." class="quick-btn">Website</a>
+              <a href="https://wa.me/2348167726037?text=I%20need%20a%20CANVA%20DESIGN." class="quick-btn">Design</a>
+              <a href="https://wa.me/2348167726037?text=I%20need%20DIGITAL%20MARKETING." class="quick-btn">Marketing</a>
+              <a href="https://wa.me/2348167726037?text=I%20need%20PHONE%20REPAIR." class="quick-btn">Repair</a>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20a%20PHONE." class="quick-btn">Buy Phone</a>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20YADI." class="quick-btn">Yadi</a>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20SHADDA." class="quick-btn">Shadda</a>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20ATAMPA." class="quick-btn">Atampa</a>
+              <a href="https://wa.me/2348167726037?text=I%20want%20to%20buy%20MEN'S%20LACE." class="quick-btn">Men's Lace</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="logo.jpg" alt="Logo" onerror="this.src='https://via.placeholder.com/60?text=MT'">
+          <h3>ABDULLAHI MT</h3>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#textile">Textile</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://wa.me/2348167726037" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/emty_jr300" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@abdulmt22" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Abdullahi Muhammad Tukur. All rights reserved. | 24/7 Active | Malumfashi & Kano, Nigeria</p>
+        <p>Qur'an Student | Following the Sunnah of Prophet Muhammad ﷺ</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CHATBOT -->
+  <div class="chatbot" id="chatbot">
+    <div class="chatbot-toggle" id="chatbotToggle">
+      <i class="fas fa-robot"></i>
+    </div>
+    <div class="chatbot-window" id="chatbotWindow">
+      <div class="chatbot-header">
+        <div class="chatbot-avatar">
+          <img src="logo.jpg" alt="AI" onerror="this.src='https://via.placeholder.com/40?text=AI'">
+        </div>
+        <div class="chatbot-title">
+          <h4>MT AI Assistant</h4>
+          <span>Always here to help</span>
+        </div>
+        <button class="chatbot-close" id="chatbotClose"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="chatbot-messages" id="chatbotMessages">
+        <div class="message bot">
+          <div class="message-content">Assalamu alaikum! I'm Abdullahi's AI assistant. How can I help you today? You can ask about services, textiles, prices, or anything else.</div>
+        </div>
+      </div>
+      <div class="chatbot-input">
+        <input type="text" id="chatbotInput" placeholder="Type your question...">
+        <button id="chatbotSend"><i class="fas fa-paper-plane"></i></button>
+      </div>
+      <div class="chatbot-suggestions">
+        <button class="suggestion">Services</button>
+        <button class="suggestion">Textile prices</button>
+        <button class="suggestion">Contact</button>
+        <button class="suggestion">Location</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- SCRIPTS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+      
